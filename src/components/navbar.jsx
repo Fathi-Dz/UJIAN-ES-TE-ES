@@ -11,10 +11,6 @@ const Navbar = () => {
   return (
     <nav className="border-b bg-white shadow-sm">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <h1 className="text-xl font-bold text-gray-900">
-          Ujian STS
-        </h1>
-
         <div className="flex gap-2">
           <NavLink to="/" className={navClass}>
             Home
@@ -31,6 +27,10 @@ const Navbar = () => {
             <NavLink to="/faq" className={navClass}>
             FAQ
           </NavLink>
+
+          <h1 className="text-xl font-bold text-gray-900">
+          Ujian STS
+        </h1>
         </div>
       </div>
     </nav>
